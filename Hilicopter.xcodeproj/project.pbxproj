@@ -21,6 +21,17 @@
 		21CB8D2E1883266D00B9E7F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21CB8D101883266C00B9E7F8 /* UIKit.framework */; };
 		21CB8D361883266D00B9E7F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21CB8D341883266D00B9E7F8 /* InfoPlist.strings */; };
 		21CB8D381883266D00B9E7F8 /* HilicopterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CB8D371883266D00B9E7F8 /* HilicopterTests.m */; };
+		21CB8D45188326E900B9E7F8 /* Obstacle.png in Resources */ = {isa = PBXBuildFile; fileRef = 21CB8D41188326E900B9E7F8 /* Obstacle.png */; };
+		21CB8D46188326E900B9E7F8 /* HeliUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 21CB8D42188326E900B9E7F8 /* HeliUp.png */; };
+		21CB8D47188326E900B9E7F8 /* HeliDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 21CB8D43188326E900B9E7F8 /* HeliDown.png */; };
+		21CB8D48188326E900B9E7F8 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 21CB8D44188326E900B9E7F8 /* Background.png */; };
+		21CB8D55188356BF00B9E7F8 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CB8D4B188356BF00B9E7F8 /* FMDatabase.m */; };
+		21CB8D56188356BF00B9E7F8 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CB8D4D188356BF00B9E7F8 /* FMDatabaseAdditions.m */; };
+		21CB8D57188356BF00B9E7F8 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CB8D4F188356BF00B9E7F8 /* FMDatabasePool.m */; };
+		21CB8D58188356BF00B9E7F8 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CB8D51188356BF00B9E7F8 /* FMDatabaseQueue.m */; };
+		21CB8D5A188356BF00B9E7F8 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CB8D54188356BF00B9E7F8 /* FMResultSet.m */; };
+		21CB8D5C1883576800B9E7F8 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 21CB8D5B1883576800B9E7F8 /* libsqlite3.0.dylib */; };
+		21CB8D5F1883CD3000B9E7F8 /* Ranking.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CB8D5E1883CD3000B9E7F8 /* Ranking.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +64,23 @@
 		21CB8D331883266D00B9E7F8 /* HilicopterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HilicopterTests-Info.plist"; sourceTree = "<group>"; };
 		21CB8D351883266D00B9E7F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		21CB8D371883266D00B9E7F8 /* HilicopterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HilicopterTests.m; sourceTree = "<group>"; };
+		21CB8D41188326E900B9E7F8 /* Obstacle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Obstacle.png; sourceTree = "<group>"; };
+		21CB8D42188326E900B9E7F8 /* HeliUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HeliUp.png; sourceTree = "<group>"; };
+		21CB8D43188326E900B9E7F8 /* HeliDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HeliDown.png; sourceTree = "<group>"; };
+		21CB8D44188326E900B9E7F8 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		21CB8D4A188356BF00B9E7F8 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		21CB8D4B188356BF00B9E7F8 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		21CB8D4C188356BF00B9E7F8 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		21CB8D4D188356BF00B9E7F8 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		21CB8D4E188356BF00B9E7F8 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		21CB8D4F188356BF00B9E7F8 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		21CB8D50188356BF00B9E7F8 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		21CB8D51188356BF00B9E7F8 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		21CB8D53188356BF00B9E7F8 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		21CB8D54188356BF00B9E7F8 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		21CB8D5B1883576800B9E7F8 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		21CB8D5D1883CD3000B9E7F8 /* Ranking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Ranking.h; path = ../Ranking.h; sourceTree = "<group>"; };
+		21CB8D5E1883CD3000B9E7F8 /* Ranking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Ranking.m; path = ../Ranking.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21CB8D5C1883576800B9E7F8 /* libsqlite3.0.dylib in Frameworks */,
 				21CB8D0F1883266C00B9E7F8 /* CoreGraphics.framework in Frameworks */,
 				21CB8D111883266C00B9E7F8 /* UIKit.framework in Frameworks */,
 				21CB8D0D1883266C00B9E7F8 /* Foundation.framework in Frameworks */,
@@ -101,6 +130,7 @@
 		21CB8D0B1883266C00B9E7F8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				21CB8D5B1883576800B9E7F8 /* libsqlite3.0.dylib */,
 				21CB8D0C1883266C00B9E7F8 /* Foundation.framework */,
 				21CB8D0E1883266C00B9E7F8 /* CoreGraphics.framework */,
 				21CB8D101883266C00B9E7F8 /* UIKit.framework */,
@@ -117,7 +147,10 @@
 				21CB8D1E1883266C00B9E7F8 /* Main.storyboard */,
 				21CB8D211883266C00B9E7F8 /* ViewController.h */,
 				21CB8D221883266C00B9E7F8 /* ViewController.m */,
+				21CB8D5D1883CD3000B9E7F8 /* Ranking.h */,
+				21CB8D5E1883CD3000B9E7F8 /* Ranking.m */,
 				21CB8D241883266C00B9E7F8 /* Images.xcassets */,
+				21CB8D49188356BF00B9E7F8 /* src */,
 				21CB8D131883266C00B9E7F8 /* Supporting Files */,
 			);
 			path = Hilicopter;
@@ -126,6 +159,10 @@
 		21CB8D131883266C00B9E7F8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				21CB8D41188326E900B9E7F8 /* Obstacle.png */,
+				21CB8D42188326E900B9E7F8 /* HeliUp.png */,
+				21CB8D43188326E900B9E7F8 /* HeliDown.png */,
+				21CB8D44188326E900B9E7F8 /* Background.png */,
 				21CB8D141883266C00B9E7F8 /* Hilicopter-Info.plist */,
 				21CB8D151883266C00B9E7F8 /* InfoPlist.strings */,
 				21CB8D181883266C00B9E7F8 /* main.m */,
@@ -150,6 +187,23 @@
 				21CB8D341883266D00B9E7F8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		21CB8D49188356BF00B9E7F8 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				21CB8D4A188356BF00B9E7F8 /* FMDatabase.h */,
+				21CB8D4B188356BF00B9E7F8 /* FMDatabase.m */,
+				21CB8D4C188356BF00B9E7F8 /* FMDatabaseAdditions.h */,
+				21CB8D4D188356BF00B9E7F8 /* FMDatabaseAdditions.m */,
+				21CB8D4E188356BF00B9E7F8 /* FMDatabasePool.h */,
+				21CB8D4F188356BF00B9E7F8 /* FMDatabasePool.m */,
+				21CB8D50188356BF00B9E7F8 /* FMDatabaseQueue.h */,
+				21CB8D51188356BF00B9E7F8 /* FMDatabaseQueue.m */,
+				21CB8D53188356BF00B9E7F8 /* FMResultSet.h */,
+				21CB8D54188356BF00B9E7F8 /* FMResultSet.m */,
+			);
+			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +282,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21CB8D47188326E900B9E7F8 /* HeliDown.png in Resources */,
+				21CB8D45188326E900B9E7F8 /* Obstacle.png in Resources */,
+				21CB8D46188326E900B9E7F8 /* HeliUp.png in Resources */,
 				21CB8D251883266C00B9E7F8 /* Images.xcassets in Resources */,
 				21CB8D171883266C00B9E7F8 /* InfoPlist.strings in Resources */,
 				21CB8D201883266C00B9E7F8 /* Main.storyboard in Resources */,
+				21CB8D48188326E900B9E7F8 /* Background.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,8 +308,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				21CB8D231883266C00B9E7F8 /* ViewController.m in Sources */,
+				21CB8D57188356BF00B9E7F8 /* FMDatabasePool.m in Sources */,
 				21CB8D1D1883266C00B9E7F8 /* AppDelegate.m in Sources */,
+				21CB8D58188356BF00B9E7F8 /* FMDatabaseQueue.m in Sources */,
 				21CB8D191883266C00B9E7F8 /* main.m in Sources */,
+				21CB8D5A188356BF00B9E7F8 /* FMResultSet.m in Sources */,
+				21CB8D55188356BF00B9E7F8 /* FMDatabase.m in Sources */,
+				21CB8D56188356BF00B9E7F8 /* FMDatabaseAdditions.m in Sources */,
+				21CB8D5F1883CD3000B9E7F8 /* Ranking.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
